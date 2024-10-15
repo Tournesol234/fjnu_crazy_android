@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow>
+        <TextView
+            android:text="Open..." />
+        <TextView
+            android:text="Ctrl-O" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Save..." />
+        <TextView
+            android:text="Ctrl-S" />
+    </TableRow>
+
+
+
+    <TableRow>
+        <TextView
+            android:text="Save As..." />
+        <TextView
+            android:text="Ctrl-Shift-S" />
+    </TableRow>
+
+    <TableRow
+        android:background="@drawable/divider"
+        android:layout_height="1dp" />
+
+
+    <TableRow>
+        <TextView
+            android:text="X Import..." />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+
+
+    <TableRow>
+        <TextView
+            android:text="X Export..." />
+        <TextView
+            android:text="Ctrl-E" />
+    </TableRow>
+
+    <!-- Add a divider -->
+    <TableRow
+        android:background="@drawable/divider"
+        android:layout_height="1dp" />
+
+    <!-- Add the Quit row -->
+    <TableRow>
+        <TextView
+            android:text="Quit" />
+    </TableRow>
+
+</TableLayout>
