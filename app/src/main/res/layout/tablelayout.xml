@@ -4,10 +4,19 @@
     android:layout_height="match_parent"
     android:stretchColumns="*">
 
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, TableLayout"
+        android:background="#A9A9A9"
+        android:textSize="24sp" />
+
     <TableRow>
         <TextView
             android:text="Open..." />
         <TextView
+            android:gravity="right"
             android:text="Ctrl-O" />
     </TableRow>
 
@@ -15,6 +24,7 @@
         <TextView
             android:text="Save..." />
         <TextView
+            android:gravity="right"
             android:text="Ctrl-S" />
     </TableRow>
 
@@ -24,6 +34,7 @@
         <TextView
             android:text="Save As..." />
         <TextView
+            android:gravity="right"
             android:text="Ctrl-Shift-S" />
     </TableRow>
 
@@ -46,6 +57,7 @@
         <TextView
             android:text="X Export..." />
         <TextView
+            android:gravity="right"
             android:text="Ctrl-E" />
     </TableRow>
 

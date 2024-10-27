@@ -1,70 +1,181 @@
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
+
+    <!-- Space Stations icon -->
+
+    <!-- Flights icon -->
+
+    <!-- Rovers icon -->
+
+    <!-- Double arrows button -->
+
+    <!-- Galaxy image -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="408dp"
+        android:layout_height="66dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="4dp">
+
+        <ImageView
+            android:id="@+id/spaceStationsIcon"
+            android:layout_width="51dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/space_station_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/flightsIcon"
+            android:layout_width="51dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/rocket_icon"
+            app:layout_constraintStart_toEndOf="@+id/spaceStationsIcon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Single arrow button -->
+
+
+        <ImageView
+            android:id="@+id/roversIcon"
+            android:layout_width="51dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/rover_icon"
+            app:layout_constraintStart_toEndOf="@+id/flightsIcon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/doubleArrowsButton"
+        android:layout_width="95dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="548dp"
+        android:background="#F8F5F5"
+        android:elevation="2dp"
+        android:src="@drawable/double_arrows"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/inputTextView"
-        android:layout_width="0dp"
+        android:id="@+id/DCAtext"
+        android:layout_width="152dp"
+        android:layout_height="161dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="DCA"
+        android:textColor="#F4EFEF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/marstext"
+        android:layout_width="152dp"
+        android:layout_height="161dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="MARS"
+        android:textColor="#F4EFEF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+
+    <ImageView
+        android:id="@+id/flightsIcon2"
+        android:layout_width="44dp"
+        android:layout_height="49dp"
+        android:src="@drawable/rocket_icon"
+        app:layout_constraintBottom_toTopOf="@+id/departButton"
+        app:layout_constraintEnd_toStartOf="@+id/galaxyImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DCAtext" />
+
+
+    <ImageView
+        android:id="@+id/galaxyImage"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:text="Input"
-        android:textSize="18sp"
+        android:src="@drawable/galaxy"
+        app:layout_constraintBottom_toBottomOf="@+id/departButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/doubleArrowsButton" />
 
-    <EditText
-        android:id="@+id/inputEditText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="8dp"
-        android:inputType="text"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/inputTextView" />
-
-    <GridLayout
-        android:id="@+id/numberKeyboard"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:columnCount="4"
-        android:rowCount="4"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/inputEditText"
-        app:layout_constraintStart_toStartOf="parent"
+    <Button
+        android:id="@+id/departButton"
+        android:layout_width="399dp"
+        android:layout_height="55dp"
+        android:background="#008000"
+        android:padding="16dp"
+        android:text="DEPART"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0">
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spaceStationsText"
+        app:layout_constraintVertical_bias="0.998" />
 
-        <Button android:text="1" />
-        <Button android:text="2" />
-        <Button android:text="3" />
-        <Button android:text="/" />
-        <Button android:text="4" />
-        <Button android:text="5" />
-        <Button android:text="6" />
-        <Button android:text="*" />
-        <Button android:text="7" />
-        <Button android:text="8" />
-        <Button android:text="9" />
-        <Button android:text="+" />
-        <Button android:text="." />
-        <Button android:text="0" />
-        <Button android:text="=" />
-        <Button android:text="-" />
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="31dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="76dp">
+
+        <TextView
+            android:id="@+id/spaceStationsText"
+            android:layout_width="98dp"
+            android:layout_height="27dp"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="4dp"
+            android:text="Space Stations"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spaceStationsIcon" />
+
+        <TextView
+            android:id="@+id/flightsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="68dp"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="4dp"
+            android:text="Flights"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/spaceStationsText"
+            app:layout_constraintTop_toBottomOf="@+id/flightsIcon" />
+
+        <TextView
+            android:id="@+id/rovertext"
+            android:layout_width="48dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="4dp"
+            android:text="Rovers"
+            app:layout_constraintStart_toEndOf="@+id/flightsText"
+            app:layout_constraintTop_toBottomOf="@+id/roversIcon" />
 
 
-
-
-
-    </GridLayout>
-
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
