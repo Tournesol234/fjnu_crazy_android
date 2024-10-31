@@ -4,16 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- Space Stations icon -->
-
-    <!-- Flights icon -->
-
-    <!-- Rovers icon -->
-
-    <!-- Double arrows button -->
-
-    <!-- Galaxy image -->
-
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="408dp"
@@ -58,78 +48,7 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/doubleArrowsButton"
-        android:layout_width="95dp"
-        android:layout_height="86dp"
-        android:layout_marginBottom="548dp"
-        android:background="#F8F5F5"
-        android:elevation="2dp"
-        android:src="@drawable/double_arrows"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/DCAtext"
-        android:layout_width="152dp"
-        android:layout_height="161dp"
-        android:background="#4CAF50"
-        android:gravity="center"
-        android:text="DCA"
-        android:textColor="#F4EFEF"
-        android:textSize="20dp"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="150dp" />
-
-    <TextView
-        android:id="@+id/marstext"
-        android:layout_width="152dp"
-        android:layout_height="161dp"
-        android:background="#4CAF50"
-        android:gravity="center"
-        android:text="MARS"
-        android:textColor="#F4EFEF"
-        android:textSize="20dp"
-        tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="150dp" />
-
-
-    <ImageView
-        android:id="@+id/flightsIcon2"
-        android:layout_width="44dp"
-        android:layout_height="49dp"
-        android:src="@drawable/rocket_icon"
-        app:layout_constraintBottom_toTopOf="@+id/departButton"
-        app:layout_constraintEnd_toStartOf="@+id/galaxyImage"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/DCAtext" />
-
-
-    <ImageView
-        android:id="@+id/galaxyImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/galaxy"
-        app:layout_constraintBottom_toBottomOf="@+id/departButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/doubleArrowsButton" />
-
-    <Button
-        android:id="@+id/departButton"
-        android:layout_width="399dp"
-        android:layout_height="55dp"
-        android:background="#008000"
-        android:padding="16dp"
-        android:text="DEPART"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/spaceStationsText"
-        app:layout_constraintVertical_bias="0.998" />
 
     <LinearLayout
         android:layout_width="409dp"
@@ -178,4 +97,108 @@
 
     </LinearLayout>
 
+    <ImageView
+        android:id="@+id/doubleArrowsButton"
+        android:layout_width="95dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="456dp"
+        android:background="#F8F5F5"
+        android:elevation="2dp"
+        android:src="@drawable/double_arrows"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/DCAtext"
+        android:layout_width="152dp"
+        android:layout_height="161dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="DCA"
+        android:textColor="#F4EFEF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/marstext"
+        android:layout_width="152dp"
+        android:layout_height="161dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="MARS"
+        android:textColor="#F4EFEF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <ImageView
+        android:id="@+id/flightsIcon2"
+        android:layout_width="44dp"
+        android:layout_height="49dp"
+        android:src="@drawable/rocket_icon"
+        app:layout_constraintBottom_toTopOf="@+id/departButton"
+        app:layout_constraintEnd_toStartOf="@+id/galaxyImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DCAtext" />
+
+
+    <ImageView
+        android:id="@+id/galaxyImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/galaxy"
+        app:layout_constraintBottom_toBottomOf="@+id/departButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doubleArrowsButton" />
+
+    <Button
+        android:id="@+id/departButton"
+        android:layout_width="399dp"
+        android:layout_height="55dp"
+        android:background="#008000"
+        android:padding="16dp"
+        android:text="DEPART"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spaceStationsText"
+        app:layout_constraintVertical_bias="0.998" />
+
+    <LinearLayout
+        android:layout_width="173dp"
+        android:layout_height="115dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="107dp">
+
+
+        <Switch
+            android:id="@+id/switch_button"
+            android:layout_width="105dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="24dp"
+            android:background="#FF9800"
+            android:text="One Way"
+            android:textColor="#FFE9E5E5"
+            android:textOff="关闭"
+            android:textOn="开启"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="362dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF9800"
+            android:text="1 Traveller"
+            android:textColor="#FFE9E5E5"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

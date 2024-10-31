@@ -37,7 +37,7 @@
         android:layout_width="392dp"
         android:layout_height="49dp"
         android:layout_marginTop="4dp"
-        android:background="#948051"
+        android:background="#D0B36E"
         android:ems="10"
         android:gravity="end"
         android:inputType="textPersonName"
@@ -113,7 +113,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button7"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"  />
     <Button
         android:id="@+id/button5"
@@ -126,7 +126,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button7"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"  />
     <Button
         android:id="@+id/button6"
@@ -139,7 +139,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button7"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"  />
     <Button
         android:id="@+id/buttonMultiply"
@@ -152,7 +152,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button7"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"  />
 
 
@@ -167,7 +167,7 @@
         android:background="#A9A9A9"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"  />
 
     <Button
@@ -181,7 +181,7 @@
         android:background="#A9A9A9"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"  />
 
     <Button
@@ -195,7 +195,7 @@
         android:background="#A9A9A9"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"  />
 
     <Button
@@ -209,7 +209,7 @@
         android:background="#A9A9A9"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"  />
 
     <!-- Fourth row of buttons -->
@@ -224,7 +224,7 @@
         android:background="#A9A9A9"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"  />
 
     <Button
@@ -238,7 +238,7 @@
         android:background="#A9A9A9"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"  />
 
     <Button
@@ -252,7 +252,7 @@
         android:background="#A9A9A9"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"  />
 
     <Button
@@ -266,6 +266,6 @@
         android:background="#A9A9A9"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="16dp"  />
 </androidx.constraintlayout.widget.ConstraintLayout>
