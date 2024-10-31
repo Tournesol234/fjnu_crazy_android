@@ -41,7 +41,6 @@ public class MainActivity extends Activity {
             dataList.add(map);
         }
 
-        // 创建SimpleAdapter适配器
         adapter = new SimpleAdapter(this, dataList,
                 R.layout.simpleadapter, // 每个列表项的布局文件
                 new String[]{"name", "image"}, // 数据源的键名
